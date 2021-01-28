@@ -5,6 +5,15 @@ body {
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "test";
+    src: url("/fonts/PottaOne-Regular.ttf");
+}
+
+h1 {
+    font-family: test
+}
+
 #container {
     width: 1024px;
     margin: 20px auto
